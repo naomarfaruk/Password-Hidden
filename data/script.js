@@ -9,7 +9,6 @@ eyeicon.onclick = function () {
     showPass.style.visibility='visible'
     showPass.innerText = password.value;
     showPass.appendChild(pass);
-
   } else {
     password.type = "password";
     eyeicon.src = "data/eye-close.png";
